@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Ask the user for the target IP
 echo "Enter the target IP address:"
 read target
 
@@ -8,7 +7,6 @@ read target
 echo "Enter the maximum number of simultaneous scans (e.g., 50):"
 read max_procs
 
-# Scan all ports from 1 to 65535
 echo "Scanning all ports (1-65535) on $target..."
 
 # Initialize process counter
